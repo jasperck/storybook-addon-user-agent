@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "babel src -d dist"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,13 @@
     "@storybook/core-events": "^4.1.11",
     "babel-loader": "^8.0.5",
     "react": "^16.8.2",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "rollup": "^1.2.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-filesize": "^6.0.1",
+    "rollup-plugin-license": "^0.8.1",
+    "rollup-plugin-node-resolve": "^4.0.0"
   },
   "peerDependencies": {
     "@storybook/addons": "^4.1.11",

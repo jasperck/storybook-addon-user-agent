@@ -12,7 +12,7 @@ yarn add -D storybook-addon-user-agent
 Register the addon
 ```js
 // addons.js
-import 'storybook-addon-user-agent/register';
+import 'storybook-addon-user-agent/dist/register';
 ```
 
 Done!
